@@ -76,7 +76,7 @@ const Home = () => {
             Amplify your brand’s online presence with our cutting-edge digital marketing strategies. 
             From engaging content to result-driven campaigns, TEKRIQ helps your business grow online smartly and effectively.
           </p>
-          <a href="#services" className="intro-btn">Get Started</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWj0EMnZYq7603aJPLqCY1k2LWZ4Tsw--gYuObBCUwBPf0lw/viewform" className="intro-btn">Get Started</a>
         </motion.div>
 
         <motion.div

@@ -205,7 +205,7 @@ const Home = () => {
             <ul>
               <li>M.V. Ranjith - 9443774973</li>
               <li>M. Aswanth - 9443853434</li>
-              <li>M. Vidhyaadaran - 888356049</li>
+              <li>M. Vidhyaadaran -  8883560549</li>
               <li>S. Aswin - 9344036861</li>
             </ul>
             <p>Follow Us:</p>
@@ -216,22 +216,25 @@ const Home = () => {
               <a href=" https://x.com/tekriq_in?s=21" target="_blank" rel="noopener noreferrer">
                 <FaTwitter size={24} />
               </a>
+              <a href="https://www.linkedin.com/in/tekriq-in-4207ab361/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={24} />
+              </a>
             </div>
           </motion.div>
 
           {/* Contact Form */}
           <motion.form
             className="footer-form"
-            action="https://docs.google.com/forms/d/e/1FAIpQLScQsAFAEdd6p7OjUwFvXUdq0UqRGy9G2lI5Fjs1QAGeItczZQ/formResponse"
+            action="https://formspree.io/f/xovdqyya"
             method="POST"
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <h4 className="footer-title">Get in Touch</h4>
-            <input type="text" name="entry.2005620554" placeholder="Your Name" required />
-            <input type="email" name="entry.1045781291" placeholder="Your Email" required />
-            <textarea name="entry.1166974658" placeholder="Your Message" rows="4" required></textarea>
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Msg" placeholder="Your Message" rows="4" required></textarea>
             <button type="submit">Send</button>
           </motion.form>
         </motion.div>

@@ -76,7 +76,7 @@ const Home = () => {
             Amplify your brand’s online presence with our cutting-edge digital marketing strategies. 
             From engaging content to result-driven campaigns, TEKRIQ helps your business grow online smartly and effectively.
           </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWj0EMnZYq7603aJPLqCY1k2LWZ4Tsw--gYuObBCUwBPf0lw/viewform" className="intro-btn">Get Started</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWj0EMnZYq7603aJPLqCY1k2LWZ4Tsw--gYuObBCUwBPf0lw/viewform" target='blank' className="intro-btn">Get Started</a>
         </motion.div>
 
         <motion.div
@@ -210,10 +210,10 @@ const Home = () => {
             </ul>
             <p>Follow Us:</p>
             <div className="social-icons">
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/tekriq.in/?igsh=YTN4cnB2YXBkdGx0#" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={24} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/tekriq_in?s=21" target="_blank" rel="noopener noreferrer">
                 <FaTwitter size={24} />
               </a>
               <a href="https://www.linkedin.com/in/tekriq-in-4207ab361/" target="_blank" rel="noopener noreferrer">
